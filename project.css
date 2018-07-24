@@ -1,0 +1,123 @@
+html {
+    height: 100%;
+   overflow: hidden;
+   cursor: crosshair;
+ }
+
+ title {
+     font: bold;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+ }
+
+ body {
+     color:(236, 241, 233);
+     margin: 0;
+     padding: 0;
+     perspective: 1px;
+     transform-style: preserve-3d;
+     height: 100%;
+     overflow-y: scroll;
+     overflow-x: hidden;
+     font-family: "Luna";
+      
+ }
+
+ header {
+     
+     box-sizing: border-box;
+     min-height: 100vh;
+     padding: 20vw 0 5vw;
+     position: relative;
+     transform-style: inherit;
+     width: 100vw;
+ }
+/* =====================Lake Town Properties Heading=================== */
+ header h1 {
+     margin-top: -100px;
+     font-size: 3em;
+     color: black;
+     letter-spacing: normal;
+ }
+
+ header, header:before {
+     background: 50% 50% / cover;
+ }
+/* ================== background image ==================== */
+header::before {
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right:0;
+    top: 0;
+    display: block;
+    background-image: url(img/tanglewood.jpg);
+    background-size: cover;
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+    min-height: 100vh;
+}
+
+header * {
+    display: flex;
+    flex-direction: column;
+    font-family: arial, black;
+    letter-spacing: 0.2em;
+    text-align: center;
+    margin: 0;
+    padding: 1em 0;
+ }
+
+
+    
+
+footer {
+    display: flex;
+    flex-direction: column;
+
+   }
+
+li {
+    text-decoration: none;
+    text: black   
+}
+
+
+li a:hover {
+    color: green;
+    text-decoration: none;
+    font: bold;
+    
+}
+
+a {
+    color: black;
+}
+/* =========================media querys============================== */
+
+@media (min-width: 801px) {
+  .main-nav, p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2em;
+    margin: 5px;
+  }
+}
+   @media (max-width: 769) {
+        .main-nav, p{
+            display: flex;
+            flex-direction: column;
+            padding: 2em;
+            margin: 5px;
+
+
+        }
+      
+    }
+
+/* ==========================end media========================= */
+
+
+
