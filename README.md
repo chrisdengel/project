@@ -9,6 +9,6 @@ to a page that corresponds with that link.
 
 	The main focus of my project was to create a parallax effect using CSS.
 
-	The JavaScript portion of my project is a contact button located on the Contact Us page.
+	The JavaScript portion of my project is a contact button which displays contact information.
 
 	The responsiveness is a simple switch from column to row on my links 769-801px
