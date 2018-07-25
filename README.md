@@ -11,4 +11,4 @@ to a page that corresponds with that link.
 
 	The JavaScript portion of my project is a contact button located on the Contact Us page.
 
-	
+	The responsiveness is a simple switch from column to row on my links 769-801px
