@@ -1,7 +1,7 @@
 # Lake-Town-Properties-LLC
 Lake Town Properties LLC un-Official Website
 
-This site is a page for a real estate business. The 4 main parts are ivesting, buying/selling,
+This site is a page for a real estate business. The 4 main parts are investing, buying/selling,
 
  rentals, and maintenance/contract work. Each link will take
 
