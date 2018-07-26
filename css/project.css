@@ -92,6 +92,7 @@ li a:hover {
 }
 
 a {
+    font-size: x-large;
     color: black;
 }
 /* =========================media querys============================== */
